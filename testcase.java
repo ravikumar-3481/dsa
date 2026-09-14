@@ -1,17 +1,14 @@
 import leetcode.*;
-import java.util.Arrays;
-
 public class testcase {
 	public static void main(String[] args) {
 
-		var func = new squaringasortedarray();
+		var func = new majorityelements();
 
-		int[] a =  {-4,-1,0,3,10};
+		int[] a =  {2, 5, 3, 5, 4, 9, 5, 6, 5};
 
 		
-		int[] result = func.sortedArray(a);
-		System.out.print(Arrays.toString(result));
-		
+		int result = func.MajorityElements(a);
+		System.out.println(result);
 		
 		
 

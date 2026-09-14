@@ -42,14 +42,12 @@ public class majorityelements {
             if (val == ans) {
                 count++;
             }
-            if (count > n/2) {
-                return ans;
-            } else {
-                return -1;
-            }
-
         }
-        return ans;
-
+        if (count > n / 2) {
+            return ans;
+        }
+        return -1;
     }
+
+    
  }
